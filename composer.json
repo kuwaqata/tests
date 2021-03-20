@@ -1,0 +1,31 @@
+{
+  "name": "kuwaqata/tests",
+  "description": "rudakov-project",
+  "type": "project",
+  "license": "-",
+  "authors": [
+    {
+      "name": "rudakov victor",
+	  "email": "victor_rudakov@mail.ru"
+    }
+  ],
+
+  "minimum-stability": "dev",
+
+  "require": {
+    "kuwaqata/rudakov2": "1.1",
+    "ext-readline": "*"
+  },
+
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/rok9ru/trpo-core"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/kuwaqata/Rudakov2.git"
+    }
+  ]
+}
+
